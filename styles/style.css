@@ -102,14 +102,14 @@ display: inline-block;
   z-index: 3; 
   top: -270px;
 }
-.new .btn{
+.new .badge{
   color: #1A0B2E;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
   background-color: #00FF88;
-  max-width: 75px;
-  height: 38px;
+  max-width: 70px;
+  height: 20px;
   padding: 16px 8px;
   border: none;
   border-radius: 1000px;
@@ -414,7 +414,7 @@ margin-bottom: 120px;
 }
 
 
-@media screen and (max-width:570px){
+@media screen and (max-width:576px){
 
   .nav{
   padding: 16px 20px;
@@ -442,10 +442,9 @@ margin-bottom: 120px;
 #part1 .img2{
   max-width: 100%;
 }
-.new .btn{
+.new .badge{
   top: 50px;
   left: 320px;
-  max-width: 100%;
 }
 .container h1{
   font-size: 45px;
@@ -604,3 +603,191 @@ padding: 20px;
 
 }
 
+@media screen and (max-width:993px){
+
+  .nav{
+  padding: 16px 20px;
+}
+.nav h3{
+  font-size: 38px;
+}
+.nav .item{
+  display: none;
+}
+.nav button{
+  display: none;
+}
+.nav img{
+  display: block;
+  cursor: pointer;
+}
+
+#part1{
+  padding: 40px 20px 0px 20px;
+}
+#part1 .img1{
+  max-width: 100%;
+}
+#part1 .img2{
+  max-width: 100%;
+}
+.new .badge{
+  top: 50px;
+  left: 350px;
+}
+.container h1{
+  font-size: 45px;
+}
+
+#part2{
+  padding: 40px 20px;
+}
+.hero h2{
+  font-size: 32px;
+}
+.hero p{
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+#part2 .boder{
+  margin-bottom: 40px;
+}
+#part2 .rating{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.rating p{
+ margin-top: 16px;
+}
+
+#part3{
+  padding: 20px;
+}
+#part3 h2{
+  padding-top: 40px;
+  font-size: 32px;
+}
+.cards h4{
+  font-size: 22px;
+  margin-top: 16px;
+
+}
+  .cards{
+  padding: 20px;
+  gap: 16px;
+  grid-template-areas: 
+  "card1"
+  "card2"
+  "card3"
+  "card4" 
+  "card5"
+  }
+  .cards>*{
+    max-width: 100%;
+    height: auto;
+    padding: 24px;
+  }
+
+  #part4{
+  padding: 20px;
+}
+#part4 h2{
+  margin-top: 40px;
+  font-size: 32px;
+}
+#part4 h4{
+  margin-top: -60px;
+  font-size: 20px;
+}
+#part4 p{ 
+  margin-top: 8px; 
+  margin-bottom: 8px;
+}
+#part4 .ads-card{
+display: grid;
+grid-template-columns: repeat(1,1fr); 
+gap: 16px;
+margin-top: 24px; 
+margin-bottom: 60px;
+padding: 20px;
+}
+.ads img{
+  max-width: 100%;
+}
+.ads .img1{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#part4 .ads{
+  max-width: 100%;
+  height: auto;
+}
+.ads .text{
+  padding: 16px;
+}
+
+.ads .img2{
+  left: 160px;
+  max-width: 100%;
+  display: block;
+}
+.host{
+  padding: 20px;
+}
+.host-card{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 40px;
+  align-items: center;
+}
+.host-card .img{
+  max-width: 100%;
+}
+.host-card .intro{
+  text-align: center;
+}
+#part4 h3{
+  font-size: 24px;  
+}
+.icons{
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+#part5{
+  padding: 40px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer h1{
+  font-size: 45px;
+}
+.footer p{
+  font-size: 16px;
+}
+.footer .lists{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+}
+.lists .list{
+  display: flex;
+  gap: 8px;
+  max-width: 100%;
+  text-align: center;
+}
+.list img{
+  max-width: 100%;
+}
+
+}
